@@ -1,0 +1,20 @@
+
+.event__schedule {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .event__dateStart {
+   padding-top: 20px; 
+  }
+
+.event hr {
+    width: 50%;
+}
+
+.event p {}
+
+.event__title {
+    margin-top: 13px;
+    font-size: 24px;
+}
