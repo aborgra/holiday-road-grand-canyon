@@ -1,5 +1,6 @@
 button.close__dialog {
-    width: 25%;
+    min-width: fit-content;
+    max-width: 15%;
     margin: 20px 0 5px 0;
     outline: none;
 }
@@ -63,7 +64,8 @@ dialog::backdrop {
 }
 
 .dialog__events .close__eventsDialog {
-    width: 25%;
+    min-width: fit-content;
+    max-width: 15%;
     margin: 20px 0 0px 0;
     outline: none;
 }
@@ -78,11 +80,11 @@ dialog::backdrop {
     box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
   .close__itineraryDialog {
-    width: 25%;
+    min-width: fit-content;
+    max-width: 15%;
     margin: 20px 0 5px 0;
     outline: none;
 }
-
 
 
 

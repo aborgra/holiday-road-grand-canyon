@@ -27,10 +27,11 @@ button.show__itinerary:hover{
 
 
 .button__details {
-    max-width: 150px;
+    min-width: 120px;
+    max-width: fit-content;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .03rem;
+    letter-spacing: .08rem;
     color: black;
     background: white;
     outline: none;
