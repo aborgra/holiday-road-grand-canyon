@@ -29,19 +29,19 @@
     }
 
 .dialog__eatery .eatery__name {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     max-width: auto;
 }
 
 .dialog__eatery .eatery__state {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     max-width: auto;
 }
 
 .dialog__eatery .eatery__city {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     max-width: auto;
 }
