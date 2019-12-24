@@ -53,14 +53,13 @@ const attractionComponent = (attraction) => {
       <div class="attraction__name">${attraction.name}</div>
       <div class="attraction__city">${attraction.city}</div>
       <div class="attraction__state">${attraction.state}</div>
-      <hr/>
       <div class="attraction__description">${attraction.description}</div>
       <img class="rating" src="/images/icons/rating.png">
       <div class="attraction__souvenirs">Souvenirs: ${souvenirs}</div>
       <div class="attraction__restrooms">Restrooms: ${restrooms}</div>
 
       
-      <button class="close__dialog">HIDE</button>
+      <button class="close__dialog">hide</button>
     </dialog>
     </div>
     `

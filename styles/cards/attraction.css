@@ -13,6 +13,11 @@
 }
 
 
+.attraction__name {
+    margin-top: 13px;
+    max-width: 150px;
+}
+
 
 
 .dino_icon{

@@ -70,7 +70,6 @@ const eateryComponent = (eatery) => {
       <div class="eatery__name">${eatery.businessName}</div>
       <div class="eatery__city">${eatery.city}</div>
       <div class="eatery__state">${eatery.state}</div>
-      <hr/>
       <div class="eatery__description">${eatery.description}</div>
       <img class="rating" src="/images/icons/rating.png">
       <div class="eatery__wifi">Wifi: ${wifi}</div>
@@ -78,7 +77,7 @@ const eateryComponent = (eatery) => {
       <div class="eatery__restrooms">Restrooms: ${restrooms}</div>
 
       
-      <button class="close__dialog">HIDE</button>
+      <button class="close__dialog">Hide</button>
     </dialog>
     </div>
     `

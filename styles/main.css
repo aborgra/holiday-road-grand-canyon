@@ -11,6 +11,7 @@
 @import 'hero.css';
 @import 'navs/footer.css';
 @import 'cards/event.css';
+@import 'cards/directions.css';
 
 body {
     font-family: HelveticaNeue-Light;
