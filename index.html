@@ -2,120 +2,128 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Voyáge</title>
-  <link rel="stylesheet" href="./styles/main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Voyáge</title>
+	<link rel="stylesheet" href="./styles/main.css">
 
 </head>
 
 <body></body>
-  <main id="top" class="container">
-    <header>
-      <img class="header__icon" src="images/logos/voyage logo.png" alt="">
-      <button class="button show__itinerary" onclick="openNav()">MY TRIPS</button>
-    </header>
-    <section class="hero"> 
-      <img class="hero__img" src="./images/hero/road_trip.jpg" alt="">
-      <div class="hero__copy">
-        <div class="hero__tag">Your Trip, Your Time</div>
-        <div class="hero__tag hero__small">travel planning with you in mind.</div>
-        <a href="#form" class="hero__button">
-          <button class="hero__button">build your itenerary now</button>
-        </a>
-        
-        
-      </div>
-    </section>
-    <section class="all__content">
-      <section class="main__content">
-        <section class="copy">
-          <div class="section__header">your itenerary, made simple.</div>
-          <div class="section__copy">we are a new approach to travel planning. we keep you in mind. using the dropdown menus above, explore hundreds of national parks, oddball attractions, and hip eateries from around the country. instantly save your new itenerary and access it whenever, wherever. </div>
-          <section id="form"></section>
-        </section>
-
-      <section class="submit__itinerary">
-        <form class="form" action="">
-          <label for="itinerary__Name"></label>
-          <input type="text" name="itinerary__Name" id="itinerary__Name" placeholder="Name your itinerary...">
-          <button class="button" id="resetForm" type="button">RESET</button>
-        </form>
-        <nav>
-          <div class="filters">
-            <div class="filter filters__states"></div>
-            <div class="filter filters__parks"></div>
-            <div class="filter filters__attract"></div>
-            <div class="filter filters__eat"></div>
-          </div>
-          <button class="button" id="saveItinerary" type="button">SAVE</button>
-        </nav>
-
-      </section>
-
-        <div class="error"></div>
-        
-        <article class="itinerary__preview">
-          <section class="park__card"></section>
-          <section class="attraction__card"></section>
-          <section class="eatery__card"></section>
-        </article>
-        <article class="weather"></article>
-      </section>
-    </section>
-
-    <section class="hero2"> 
-      <div class="hero2__copy">
-        <div class="hero2__tag">pack your bag</div>
-        <div class="hero__tag hero__small">adventure awaits.</div>
-      </div>
-        <img class="hero2__img" src="./images/hero/hero_bottom.jpg" alt="">
-        </section>
+<main id="top" class="container">
+	<header>
+		<img class="header__icon" src="images/logos/voyage logo.png" alt="">
+		<button class="button show__itinerary" onclick="openNav()">MY TRIPS</button>
+	</header>
+	<section class="hero">
+		<img class="hero__img" src="./images/hero/road_trip.jpg" alt="">
+		<div class="hero__copy">
+			<div class="hero__tag">Your Trip, Your Time</div>
+			<div class="hero__tag hero__small">travel planning with you in mind.</div>
+			<a href="#form" class="hero__button">
+				<button class="hero__button">build your itenerary now</button>
+			</a>
 
 
-    <aside class="itinerary" id="itinerary__aside">
+		</div>
+	</section>
+	<section class="all__content">
+		<section class="main__content">
+			<section class="copy">
+				<div class="section__header">your itenerary, made simple.</div>
+				<div class="section__copy">we are a new approach to travel planning. we keep you in mind. using the dropdown
+					menus above, explore hundreds of national parks, oddball attractions, and hip eateries from around the
+					country. instantly save your new itenerary and access it whenever, wherever. </div>
+				<section id="form"></section>
+			</section>
 
-        <div id="mySideItinerary" class="side--itinerary transparent">
-          <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</div>
-          <div id="itinerary__container"></div>
-          
+			<section class="submit__itinerary">
+				<form class="form" action="">
+					<label for="itinerary__Name"></label>
+					
+					<input type="text" name="itinerary__Name" id="itinerary__Name" placeholder="Name your itinerary...">
+					<button class="button" id="resetForm" type="button">RESET</button>
+				</form>
+				<nav>
+					<div class="filters">
+						<div class="filter filters__states"></div>
+						<div class="filter filters__parks"></div>
+						<div class="filter filters__attract"></div>
+						<div class="filter filters__eat"></div>
+					</div>
+					<button class="button" id="saveItinerary" type="button">SAVE</button>
+				</nav>
 
-        </div>
+			</section>
 
-      </aside>
-      <footer>
-        <img class="header__icon footer__icon" src="./images/logos/voyage logo white.png" alt="">
-        <section class="socials">
-          <img src="./images/socials/facebook.png" alt="facebook icon" class="social__icon">
-          <img src="./images/socials/instagram.png" alt="instagram icon" class="social__icon">
-          <img src="./images/socials/twitter.png" alt="twitter icon" class="social__icon">
-          <img src="./images/socials/pinterest.png" alt="pinterest icon" class="social__icon">
-        </section>
-        <section class="footer__copy">
-          <a class="footer__links" href="#top">
-            <div>ABOUT US</div>
-            <div>HELP & FAQ</div>
-            <div>CONTACT</div>
-            <div>CAREERS</div>
+			<div class="error"></div>
 
-          </a>
-        </section>
-        <div>&copy; 2019 Voyáge. all rights reserved</div>
-      </footer>
-  </main>
-    <script type="module" src="./scripts/main.js"></script>
-    <script>
+			<article class="itinerary__preview">
+				<section class="park__card"></section>
+				<section class="attraction__card"></section>
+				<section class="eatery__card"></section>
+			</article>
+			<article class="weather"></article>
+		</section>
+	</section>
 
-      const openNav = () => {
-      document.getElementById("mySideItinerary").style.width = "35%";
-      }
-      
-      const closeNav = () => {
-      document.getElementById("mySideItinerary").style.width = "0";
-      }
+	<section class="hero2">
+		<div class="hero2__copy">
+			<div class="hero2__tag">pack your bag</div>
+			<div class="hero__tag hero__small">adventure awaits.</div>
+		</div>
+		<img class="hero2__img" src="./images/hero/hero_bottom.jpg" alt="">
+	</section>
 
-    </script>
+
+	<aside class="itinerary" id="itinerary__aside">
+
+		<div id="mySideItinerary" class="side--itinerary transparent">
+			<div href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</div>
+			<div id="itinerary__container"></div>
+
+
+		</div>
+
+	</aside>
+	<footer>
+		<img class="header__icon footer__icon" src="./images/logos/voyage logo white.png" alt="">
+		<section class="socials">
+			<img src="./images/socials/facebook.png" alt="facebook icon" class="social__icon">
+			<a href="https://www.instagram.com/voyage__travel__2020/"><img src="./images/socials/instagram.png"
+					alt="instagram icon" class="social__icon"></a>
+			<img src="./images/socials/twitter.png" alt="twitter icon" class="social__icon">
+			<img src="./images/socials/pinterest.png" alt="pinterest icon" class="social__icon">
+		</section>
+		<section class="footer__copy">
+			<a class="footer__links" href="#top">
+				<div>ABOUT US</div>
+				<div>HELP & FAQ</div>
+				<div>CONTACT</div>
+				<div>CAREERS</div>
+			</a>
+			
+		</section>
+		
+		<section>
+		<div class="copyright">&copy; 2019 Voyáge. all rights reserved</div>
+		<div class="icon__author">Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+		</section>
+		
+	</footer>
+</main>
+
+<script type="module" src="./scripts/main.js"></script>
+<script>
+	const openNav = () => {
+		document.getElementById("mySideItinerary").style.width = "35%";
+	}
+
+	const closeNav = () => {
+		document.getElementById("mySideItinerary").style.width = "0";
+	}
+</script>
 </body>
-</html>
 
+</html>

@@ -1,4 +1,5 @@
-.itinerary__headline {
+
+.dialog__itinerary.itinerary__headline {
     font-style: italic;
-    font-size: 25px;
+    font-size: 29px;
 }

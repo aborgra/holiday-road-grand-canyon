@@ -14,25 +14,46 @@
 
 .fork_icon {
     max-width: 120px;
+    margin-bottom: 10px;
 }
 
-.rating {
+/* .rating {
     width: 50px;
     margin: 10px 0 10px 0;
+} */
+
+.rating{
+    width: 60px;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+    }
+
+.dialog__eatery .eatery__name {
+    font-size: 24px;
+    font-weight: bold;
+    max-width: auto;
 }
 
-.mountain_icon{
-    max-width: 50px;
+.dialog__eatery .eatery__state {
+    font-size: 20px;
+    font-weight: bold;
+    max-width: auto;
 }
 
-.eatery__name {
-    margin-top: 13px;
-    max-width: 150px;
+.dialog__eatery .eatery__city {
+    font-size: 20px;
+    font-weight: bold;
+    max-width: auto;
 }
+
 
 .eatery__content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
+}
+
+.dialog__eatery .eatery__description {
+    padding: 20px;
 }

@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 0px 5px 0px #272c2f;
+    box-shadow: 0px 0px 15px 0px #272c2f;
     margin-top: -20px;
     margin-left: -20px;
     margin-right: -20px;
@@ -17,10 +17,17 @@ header {
     
 }
 
-.header__icon {
+/* .header__icon {
     max-width: 125px;
     padding-left: 50px;
-}
+} */
+
+.header__icon{
+    max-width: 125px;
+    padding-left: 50px;
+    -webkit-filter: drop-shadow(5px 5px 4px black);
+    filter: drop-shadow(5px 5px 4px black);
+    }
 
 .filters {
     display: flex;

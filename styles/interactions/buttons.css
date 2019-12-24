@@ -18,34 +18,33 @@ button.show__itinerary:hover{
     appearance: none;
     background-color: #004769;
     color: white;
-    box-shadow: 0px 0px 15px 0px #272c2f;
+    box-shadow: 0px 20px 25px 5px #272c2f;
     transition-duration: .5s;
     font-size:17px;
     cursor:pointer;
+    outline:none;
 }
-
-
 
 
 .button__details {
-    margin-top: 15px;
     max-width: 150px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .03rem;
     color: black;
     background: white;
+    outline: none;
+    margin-top: 10px;
 }
 
-
 .button__events {
-    margin-top:4px;
     max-width: 150px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .03rem;
     color: black;
     background: white;
+    outline: none;
 }
 
 .button__delete {
@@ -56,6 +55,7 @@ button.show__itinerary:hover{
     letter-spacing: .03rem;
     color: black;
     background: white;
+    outline: none;
 }
 
 button {
@@ -64,7 +64,7 @@ button {
     background-color: white;
     
     border-radius: .25rem;
-    border: 1.2px solid #02293b63;
+    border: .5px solid black;
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -74,16 +74,18 @@ button {
     text-align: center;
     text-decoration: none;
     width: 100%;
+    
     transition-duration: .5s;
+    outline:none;
 }
 
-.button{
+.button {
     width: 200px;
     max-height: 70px;
 }
 
 button:hover {
-    box-shadow: 0px 0px 5px 0px #272c2f;
+    box-shadow: 0px 2px 10px 1px #272c2f;
     transition-duration: .3s;
   
 }

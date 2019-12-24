@@ -13,16 +13,10 @@
 }
 
 
-.attraction__name {
-    margin-top: 13px;
-    max-width: 150px;
-}
-
-
-
 .dino_icon{
     max-width: 120px;
 }
+
 
 .attraction__content {
     display: flex;
@@ -30,3 +24,32 @@
     align-items: center;
     padding: 5px;
 }
+
+
+.dialog__attraction .attraction__name {
+    font-size: 26px;
+    font-weight: bold;
+    max-width: auto;
+}
+
+.dialog__attraction .attraction__state {
+    font-size: 22px;
+    font-weight: bold;
+    max-width: auto;
+}
+
+.dialog__attraction .attraction__city {
+    font-size: 23px;
+    font-weight: bold;
+    max-width: auto;
+}
+
+.dialog__attraction .attraction__description {
+    padding: 20px;
+}
+
+
+
+
+
+
