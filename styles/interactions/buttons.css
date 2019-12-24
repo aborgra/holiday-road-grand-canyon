@@ -27,7 +27,6 @@ button.show__itinerary:hover{
 
 
 .button__details {
-    margin-top: 15px;
     max-width: 150px;
     font-weight: 500;
     text-transform: uppercase;
@@ -35,10 +34,10 @@ button.show__itinerary:hover{
     color: black;
     background: white;
     outline: none;
+    margin-top: 10px;
 }
 
 .button__events {
-    margin-top: 15px;
     max-width: 150px;
     font-weight: 500;
     text-transform: uppercase;
@@ -75,10 +74,12 @@ button {
     text-align: center;
     text-decoration: none;
     width: 100%;
+    
     transition-duration: .5s;
+    outline:none;
 }
 
-.button{
+.button {
     width: 200px;
     max-height: 70px;
 }

@@ -12,10 +12,7 @@ footer{
     box-shadow: 0px 0px 5px 0px #272c2f;
     margin-left: -20px;
     margin-right: -20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /* padding-right: 80px; */
-    padding-left: 10px;
+    padding: 20px 0px 20px 10px;
     position: absolute;
     width: 100%;
     bottom: 100;
@@ -48,4 +45,21 @@ footer{
 }
 .footer__copy DIV:hover{
     text-decoration: underline;
+}
+
+
+footer .icon__author {
+    font-size: 8px;
+    
+}
+
+footer .icon__author a {
+    font-size: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .icon__author a:hover {
+    text-decoration: underline;
+
 }

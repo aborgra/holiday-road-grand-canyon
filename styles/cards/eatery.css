@@ -14,16 +14,19 @@
 
 .fork_icon {
     max-width: 120px;
+    margin-bottom: 10px;
 }
 
-.rating {
+/* .rating {
     width: 50px;
     margin: 10px 0 10px 0;
-}
+} */
 
-.mountain_icon{
-    max-width: 50px;
-}
+.rating{
+    width: 60px;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+    }
 
 .dialog__eatery .eatery__name {
     font-size: 24px;

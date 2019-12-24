@@ -52,9 +52,10 @@ const itineraryComponent = (itinerary) => {
     <div class="itinerary__buttons">
         <button class="button__details" id="itineraryDetailsButton__${itinerary.id}">Details</button>
         <dialog class="dialog__itinerary" id="details__${itinerary.id}">
-          <div class="itinerary__headline">Pack your bags and get ready for your trip! </div>
+          <div class="itinerary__headline">Pack your bags and get ready for your trip! </div> 
           <div class="itinerary__parkName"> You're headed to ${itinerary.itineraryDetails.park.fullName} </div>
           <div class="itinerary__eateryName"> and grabbing a bite to eat at ${itinerary.itineraryDetails.eatery.businessName} in ${itinerary.itineraryDetails.eatery.city}, ${itinerary.itineraryDetails.eatery.state}.</div>
+        
           <div class="itinerary__eateryWifi">${wifi}</div>
           <div class="itinerary__eateryRestrooms">${restrooms}</div>
           <hr/>

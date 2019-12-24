@@ -7,23 +7,25 @@ button.close__dialog {
 
 dialog::backdrop {
     background: #527d90;
-    opacity: 62.5%;
+    opacity: 63.5%;
  }
+
 
 .dialog__park {
     max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 22px; 
+    font-size: 22.5px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
 
+
 .dialog__attraction {
     max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 22px; 
+    font-size: 22.5px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
@@ -35,7 +37,7 @@ dialog::backdrop {
 .dialog__eatery {
     max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 22px; 
+    font-size: 22.5px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
@@ -48,15 +50,13 @@ dialog::backdrop {
 .dialog__events {
     max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 22px; 
+    font-size: 22.5px;
+    padding: 0px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
-    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
-    
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90); 
 }
-
-
 
 
 .dialog__events p {
@@ -64,9 +64,9 @@ dialog::backdrop {
     line-height: 25px;
 }
 
-.close__eventsDialog {
+.dialog__events .close__eventsDialog {
     width: 25%;
-    margin: 20px 0 5px 0;
+    margin: 20px 0 0px 0;
     outline: none;
 }
 
@@ -84,18 +84,26 @@ dialog::backdrop {
     margin: 20px 0 5px 0;
     outline: none;
 }
-  
 
 
-.dialog__park {
+.dialog__directions {
     max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 22.5px; 
+    font-size: 15px;
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
-    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90); 
 }
+
+.dialog__directions .close__directionsDialog {
+    width: 25%;
+    margin: 20px 0 5px 0;
+    outline: none;
+}
+
+
+
 
 
 

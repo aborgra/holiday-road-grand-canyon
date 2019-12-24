@@ -17,10 +17,17 @@ header {
     
 }
 
-.header__icon {
+/* .header__icon {
     max-width: 125px;
     padding-left: 50px;
-}
+} */
+
+.header__icon{
+    max-width: 125px;
+    padding-left: 50px;
+    -webkit-filter: drop-shadow(5px 5px 4px black);
+    filter: drop-shadow(5px 5px 4px black);
+    }
 
 .filters {
     display: flex;
