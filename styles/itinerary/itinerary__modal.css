@@ -24,11 +24,12 @@ aside {
 
 
 .side--itinerary:first-child {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .side--itinerary:last-child {
-  padding-top: 50px;
+ padding-bottom: 50px;
+
 }
 
 .itinerary__content {
@@ -41,7 +42,7 @@ aside {
   text-align:center;
   background-color: #004769;
   border-radius: 4px;
-
+  /* border: .04rem groove black; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,6 +85,10 @@ aside {
   background-color: #527D90;
   
 }
+
+
+
+
 .button__delete:hover {
   transition-duration: .3s;
   color: white;
@@ -97,6 +102,7 @@ aside {
   cursor: pointer;
   background-color: #527D90;
 }
+
 /* STYLING SAVED ITINERARY CARDS */
 .itinerary__name {
   font-family: sans-serif;
