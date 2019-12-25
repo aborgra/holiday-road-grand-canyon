@@ -1,11 +1,31 @@
+@media screen and (max-width: 700px) {
+    .hero {
+        padding-top: 15px;
+    },
+    img.hero__img {
+        max-width: 100%;
+        margin-top: 20px;
+    },
+    .hero .hero2__img {
+        max-width: 100%;
+        margin-top: 20px;
+    },
+    .hero_tag {
+
+    }
+}
+
+
 
 .hero {
-    display:flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
     border-bottom: .05em solid black;
     padding-bottom: 30px;
     margin-left: 80px;
     margin-right: 80px;
-   margin-top: 90px;
+    margin-top: 90px;
 }
 
 .hero__copy {

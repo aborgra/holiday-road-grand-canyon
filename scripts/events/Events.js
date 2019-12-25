@@ -1,7 +1,26 @@
 const eventComponent = (event) => {
+    
+    const yesFee = () => {
+      
+      if (`${event.feeinfo}` === "false") {
+        console.log(event.feeinfo)
+     
+        return "THIS COSTS ____"
+     
+     
+      } else {  
+        console.log(event.feeinfo)
+        
+        return "FREE"
+    
+        }
+      
+      }
+      const feeinfo = yesFee()
   
   return `
     <div class="event__title" id="event__title">${event.title}</div>
+    <br/>
     <div class="event__schedule">
     <div class="event__dateStart" id="event__dateStart">Start Date: ${event.datestart}</div>
     <div class="event__dateend" id="event__dateend">End Date: ${event.dateend}</div>
@@ -14,8 +33,8 @@ const eventComponent = (event) => {
     <div class="event__description" id="event__description">${event.description}</div>
     <div class="event__feeinfo" id="event__feeinfo">Cost: ${event.feeinfo}</div>
     <button class="close__eventsDialog">HIDE</button>
-  <br/>
-  <br/>
+    <br/>
+    <br/>
   
   `
 }

@@ -263,6 +263,72 @@
         }
       },
       "id": 19
+    },
+    {
+      "itineraryName": "Our trip",
+      "itineraryDetails": {
+        "park": {
+          "states": "FL,GA,NC,SC",
+          "directionsInfo": "The corridor encompasses a cultural and linguistic area along the southeastern coast of the United States from the northern border of Pender County, North Carolina to the southern border of St. Johns County, Florida and 30 miles inland.  The Commission operates a small business office on Johns Island, SC., but there are many sites to explore within the Corridor.",
+          "directionsUrl": "http://www.gullahgeecheecorridor.org",
+          "url": "https://www.nps.gov/guge/index.htm",
+          "weatherInfo": "The weather varies throughout the year and even throughout the day. Please check the National Weather Service information at http://www.weather.gov for forecast information.",
+          "name": "Gullah/Geechee",
+          "latLong": "lat:32.8470785915852, long:-79.8232242465019",
+          "description": "Designated by Congress in 2006, the Gullah Geechee Cultural Heritage Corridor extends from Wilmington, North Carolina in the north to Jacksonville, Florida in the south. It is home to one of America's most unique cultures, a tradition first shaped by captive Africans brought to the southern United States from West Africa and continued in later generations by their descendents.",
+          "designation": "Cultural Heritage Corridor",
+          "parkCode": "guge",
+          "addresses": [
+            {
+              "postalCode": "29455",
+              "city": "Johns Island",
+              "stateCode": "SC",
+              "line1": "Gullah Geechee Cultural Heritage Corridor",
+              "type": "Physical",
+              "line3": "",
+              "line2": "2817 Maybank Highway"
+            },
+            {
+              "postalCode": "29457-1007",
+              "city": "Johns Island",
+              "stateCode": "SC",
+              "line1": "Gullah Geechee Cultural Heritage Corridor",
+              "type": "Mailing",
+              "line3": "",
+              "line2": "PO Box 1007"
+            }
+          ],
+          "id": "D35A4F27-7E52-4711-BF1F-37756A9D893C",
+          "fullName": "Gullah/Geechee Cultural Heritage Corridor"
+        },
+        "eatery": {
+          "businessName": "McClard's BBQ",
+          "description": "Five generations of the McClard family have been working the smoker since they opened their spot in the '20s, which is a type of nepotism no one who's ever eaten their ribs or chicken is complaining about. One of the most popular dishes is the tamale spread, a vast pile of food that includes tamales covered in Fritos, beans, chopped meat, onions, and cheese -- it was initially thrown together in the early '70s to help one of the dishwashers sober up, but eventually caught on with the customers. It's uniquely McClard's and uniquely Arkansas.",
+          "state": "AR",
+          "city": "Hot Springs",
+          "id": 5,
+          "ameneties": {
+            "wheelchairAccessible": false,
+            "petFriendly": false,
+            "wifi": true,
+            "diaperFacility": true,
+            "playground": true,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": 11,
+          "name": "White House Replica",
+          "state": "GA",
+          "city": "Atlanta",
+          "description": "Want to see the White House without having to go to D.C.? Consider traveling to Atlanta, where they have a replica three-quarters the size! The mini White House used to offer tours of its replica of the Oval Office and the Lincoln bedroom, but now it’s a private home.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": true
+          }
+        }
+      },
+      "id": 20
     }
   ]
 }

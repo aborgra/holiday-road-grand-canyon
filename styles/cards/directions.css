@@ -21,14 +21,6 @@
     padding: 20px;
 }
 
-button.close__directionsDialog {
-    width: 25%;
-    margin: 20px 0 5px 0;
-    outline: none;
-}
-
-
-
 .dialog__directions {
     max-width:45%;
     font-family: HelveticaNeue-Light;
@@ -40,7 +32,8 @@ button.close__directionsDialog {
 }
 
 .dialog__directions .close__directionsDialog {
-    width: 25%;
+    min-width: fit-content;
+    max-width: 15%;
     margin: 20px 0 5px 0;
     outline: none;
 }
