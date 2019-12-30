@@ -1,3 +1,27 @@
+
+@media screen and (max-width: 500px) {
+    footer {
+        display:flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        max-width: 100% !important;
+        margin-top: 20px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    /* .hero2__img {
+        max-width: 415px !important;
+    }
+    .hero2__tag {
+        font-size: 31px !important;
+    }
+    .hero2__copy .hero__small {
+        font-size: 11pt !important;
+    } */
+}
+
+
+
 footer__icon {
     max-width: 125px;
     margin-top: 40px;

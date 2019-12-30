@@ -1,26 +1,35 @@
 @media screen and (max-width: 700px) {
-    .hero {
-        padding-top: 15px;
-    },
-    img.hero__img {
-        max-width: 100%;
+    .hero__img {
+        max-width: 415px !important;
         margin-top: 20px;
-    },
-    .hero .hero2__img {
-        max-width: 100%;
-        margin-top: 20px;
-    },
-    .hero_tag {
-
+    }
+    .hero2__img {
+        max-width: 415px !important;
+        margin-right: 0px !important;
+    }
+    .hero2__tag {
+        bottom: 10px !important;
+        text-align: end !important;
+        left: -200px !important;
+        font-size: 31px !important;
+    }
+    .hero2__copy {
+        margin-bottom: 73px;
+        margin-left: -310px;
+    }
+    .hero2__copy .hero__small {
+        font-size: 11pt !important;
+        left: -200px !important;
+        text-align: end !important;
     }
 }
 
 
 
 .hero {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap:wrap; */
     border-bottom: .05em solid black;
     padding-bottom: 30px;
     margin-left: 80px;
@@ -29,13 +38,14 @@
 }
 
 .hero__copy {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: start;
     margin-left: 20px;
     line-height: 1.5;
     padding-bottom: 50px;
+    max-width: 375px;
 }
 .hero__img {
     max-width: 700px;
@@ -86,7 +96,8 @@
 }
 
 .hero2__img {
-    max-height: 650px
+    max-width: 750px;
+    margin-right: 120px;
 
 }
 
@@ -94,16 +105,26 @@
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-    /* margin-left: 80px;  */
+    align-items: center;
+    flex-direction: column-reverse;
+    /* display: flex;
+    justify-content: start;
+    padding-bottom: 30px;
+    margin-left: 80px; 
     margin-right: 200px;
-   margin-top: 90px;
+    margin-top: 90px; */
+
+   
 }
 
 .hero2__copy {
-    position: absolute;
+    position: relative;
     letter-spacing: 5px;
     text-align: end;
-    right: 300px;
+    /* z-index: 0; */
+    overflow: auto;
+    left: 177px;
+    top: 250px;
     margin-top: 50px;
     line-height: 1.5;
     padding-bottom: 50px;
