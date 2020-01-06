@@ -104,15 +104,10 @@
 .hero2 {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     align-items: center;
     flex-direction: column-reverse;
-    /* display: flex;
-    justify-content: start;
-    padding-bottom: 30px;
-    margin-left: 80px; 
-    margin-right: 200px;
-    margin-top: 90px; */
+    margin-top: 50px;
 
    
 }
